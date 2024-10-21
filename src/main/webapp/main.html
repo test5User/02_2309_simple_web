@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Main</title>
+</head>
+<body>
+    <form action="/form" method="post">
+        Name: <input name="userName" placeholder="Name"><br>
+        Age:  <input type="number" name="userAge" min="1" required><br>
+        Gender: <input type="radio" name="gender" value="M" checked> Male
+                <input type="radio" name="gender" value="F"> Female<br>
+        Country: <select name="country">
+            <option selected>Belarus</option>
+            <option>Russia</option>
+            <option>USA</option>
+        </select>
+        Courses: <input type="checkbox" name="course" value="Java" checked> Java
+                 <input type="checkbox" name="course" value="Java Scrip"> JavaScript
+                 <input type="checkbox" name="course" value="C++"> C++
+                 <input type="checkbox" name="course" value="html"> HTML
+        <input type="submit" value="Send Info...">
+    </form>
+</body>
+</html>
